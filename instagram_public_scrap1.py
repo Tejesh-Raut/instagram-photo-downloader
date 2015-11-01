@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 path_to_chromedriver ='/Users/Gangesh/Downloads/Programs/chromedriver'
 driver = webdriver.Chrome(executable_path = path_to_chromedriver)
 
-print ("Enter the instagram's username of interested person :")
+
 username = input("Enter the instagram's username of interested person :",)
 url = "https://instagram.com/" + username
 
